@@ -1,0 +1,180 @@
+/* 초기화 */
+*{ margin: 0; padding: 0; }
+a{ text-decoration: none;}
+ul, ol {list-style-type: none;}
+html, body { height: 100%;}
+body{
+    height: 100%;
+    color: black;
+    background: #fffff9;
+    font-family: 'Gaegu', cursive;
+}
+.img_responsive {
+    width: 100%;
+}
+/* 헤더, 메인 비쥬얼 */
+#main_header {
+    height: 100%;
+    position: relative;
+    text-align: right;
+    /* border: 1px solid #000; */
+    border-bottom: 10px solid #fef3ed;
+}
+#top_photo {
+    position: absolute;
+    left: 0;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#main_header > h1 {
+    font-size: 40px;
+    padding-top: 75px;
+    position: absolute;
+    right: 30px;
+    color: #2e294e;
+    font-family: 'Dancing Script', cursive;
+    /* border: 1px solid green; */
+}
+#main_visual {
+    position: absolute;
+    /* border: 1px solid #000; */
+    margin-top: 280px;
+    left: 30px;
+    width: 80%;
+}
+#main_header > .info {
+    position: absolute;
+    font-size: 24px;
+    right: 30px; bottom: 40px;
+}
+#main_header > .font {
+    position: absolute;
+    font-size: 20px;
+    left: 30px;
+    bottom: 150px;
+    font-family: 'Dancing Script', cursive;
+    /* border: 1px solid #000; */
+}
+
+/* 소개글 */
+
+#intro {
+    text-align: center;
+    padding: 110px 0;
+    line-height: 2em;
+    border-bottom: 10px solid #fef3ed;
+}
+#intro > h2 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #f26d5b;
+    border-top: 1px solid #f26d5b;
+    border-bottom: 1px solid #f26d5b;
+    padding: 20px 0;
+    margin: 0 50px;
+}
+#intro > p {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#intro > .intro_name > span {
+    font-size: 20px;
+    font-weight: bold;
+}
+#intro address {
+    padding-top: 40px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+/* 포토 섹션 */
+#photo {
+    border-bottom: 10px solid #fef3ed;
+}
+#photo > .photo_list > li {
+    margin-bottom: 20px;
+}
+#photo > .photo_list > li:last-child {
+    margin-bottom: 0px;
+}
+/* 두번째 사진 */
+#photo > .photo_list > li:nth-child(2) {
+    overflow: hidden;
+    margin: 0;
+}
+#photo > .photo_list > li:nth-child(2) > div {
+    float: left;
+    width: 50%;
+}
+#photo > .photo_list > li:nth-child(2) .left {
+    color: #2e294e;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+#photo > .photo_list > li:nth-child(2) .left > h3 {
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+/* 세번째 사진 */
+#photo > .photo_list > li:nth-child(3) {
+    overflow: hidden;
+}
+#photo > .photo_list > li:nth-child(3) > div {
+    float: left;
+    width: 50%;
+}
+#photo > .photo_list > li:nth-child(3) .right {
+    color: #2e294e;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+#photo > .photo_list > li:nth-child(3) .right > h3 {
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* 초대글 */
+#invitation {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#invitation h2 {
+    font-size: 22px;
+    line-height: 40px;
+}
+#invitation time {
+    font-size: 18px;
+}
+#invitation > .address {
+    font-size: 16px;
+    line-height: 24px;
+    color: #f26d5b;
+    border-top: 1px solid #f26d5b;
+    border-bottom: 1px solid #f26d5b;
+    padding: 20px 0;
+    margin: 0 50px;
+    margin-top: 50px;
+}
+
+/* 꼬릿말 */
+footer {
+    background: #fef3ed;
+    color: #f26d5b;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
